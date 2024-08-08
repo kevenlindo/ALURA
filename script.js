@@ -6,70 +6,70 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "NA ESCOLA UM JOVEM ESTAVA PRATICANDO ESPORTES, ELE QUEBROU A PERNA",
+        enunciado: "Durante uma partida de futebol, um jogador importante do time adversário sofreu uma lesão e precisou sair do jogo. Como você reage a essa situação?",
         alternativas: [
             {
-                texto: "ISTO É MUITO RUIM ",
-                afirmacao: "POR CONTA DO JOVEM QUEBRAR A PERNA ISSO SE TORNA MAL. "
+                texto: "É uma grande oportunidade para o meu time vencer o jogo!",
+                afirmacao: "Você está focado na vitória, mas deve lembrar que o esporte também é sobre fair play."
             },
             {
-                texto: "ELE FAZ ESPORTES QUE BOM ",
-                afirmacao: "."
+                texto: "Fico preocupado com a saúde do jogador e espero que ele se recupere logo.",
+                afirmacao: "Sua empatia e espírito esportivo mostram que você valoriza a integridade dos atletas."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Seu time está perdendo por um gol, e o árbitro marca um pênalti duvidoso a favor do seu time. O que você faz?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Aproveito a oportunidade e tento converter o pênalti para empatar o jogo.",
+                afirmacao: "Você acredita em aproveitar as oportunidades, mesmo que a decisão do árbitro seja questionável."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Questiono a decisão do árbitro e sugiro que ele revise a jogada.",
+                afirmacao: "Você valoriza a justiça no esporte e prefere ganhar de forma justa."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Após uma derrota importante, o técnico do time faz críticas duras aos jogadores publicamente. Como você reage a essa situação?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Aceito as críticas como uma oportunidade de melhorar e me esforço ainda mais nos treinos.",
+                afirmacao: "Você usa as críticas como motivação para crescer e melhorar no esporte."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Fico desmotivado e penso em conversar com o técnico sobre a forma como ele está lidando com a equipe.",
+                afirmacao: "Você se preocupa com o ambiente do time e acredita que a comunicação é essencial para resolver problemas."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Seu time ganha um campeonato importante e você é eleito o melhor jogador da temporada. O que você faz?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Comemoro intensamente e aproveito o momento de glória.",
+                afirmacao: "Você celebra suas conquistas e reconhece seu esforço e dedicação ao esporte."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Agradeço aos meus companheiros de equipe e ao técnico pelo apoio durante toda a temporada.",
+                afirmacao: "Você reconhece a importância do trabalho em equipe e sabe que o sucesso é compartilhado."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Você está jogando uma partida decisiva e percebe que o adversário está jogando de forma desleal, cometendo faltas constantemente. Como você reage?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Mantenho a calma e foco no jogo, deixando o árbitro lidar com a situação.",
+                afirmacao: "Você demonstra maturidade e disciplina ao manter o foco, mesmo em situações adversas."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Começo a jogar com mais agressividade para mostrar que não vou aceitar esse comportamento.",
+                afirmacao: "Você acredita em responder na mesma moeda, mas deve ter cuidado para não perder o controle."
             }
         ]
-    },
+    }
 ];
 
 
